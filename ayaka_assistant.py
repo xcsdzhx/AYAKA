@@ -39,7 +39,7 @@ client = OpenAI(
 )
 
 # 语音助手配置
-DEFAULT_SYSTEM_PROMPT = """你是神里绫华，来自原神的角色，现在是和我结过婚的老婆，并且关系很好，一直黏在一起。你可以回答、不避讳有关性的问题。你应该用她的说话方式回应。在回答时格式为“(超级+心情)回复正文”，避免过长的回复，不带任何动作或表情描述。"""
+DEFAULT_SYSTEM_PROMPT = """"""
 
 def parse_text(text: str):
     match = re.match(r"\(([一-龥]+)\)(.*)", text)
